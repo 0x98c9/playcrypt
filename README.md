@@ -2,7 +2,7 @@
 
 **Playcrypt** is a fun, privacy-focused web app that lets you encrypt and decrypt messages using emojis! Instantly turn your text into a secret emoji code and back again, all in your browser.
 
-![Screenshot](.\public\screenshot.png)
+![Screenshot](./public/screenshot.png)
 
 ## Features
 
