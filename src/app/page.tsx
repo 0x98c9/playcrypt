@@ -161,15 +161,6 @@ export default function Home() {
               </span>
               <span className="text-white/90">.fun</span>
             </h1>
-              
-              <div className="flex justify-center items-center gap-2 mb-8">
-                <Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
-                <Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
-                <Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
-                <Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
-                <Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
-                <span className="text-gray-400 ml-2">Trusted by crypto enthusiasts</span>
-              </div>
             </div>
 
             <p className="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto">
