@@ -1,0 +1,5 @@
+# Cloudflare Pages Redirects
+# This file handles client-side routing for the Next.js app
+
+# Handle all routes by serving the index.html for SPA behavior
+/*    /index.html   200

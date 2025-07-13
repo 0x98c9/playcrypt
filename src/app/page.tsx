@@ -122,8 +122,12 @@ export default function Home() {
                 <span>Tools</span>
                 <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-violet-400 to-cyan-400 group-hover:w-full transition-all duration-300"></div>
               </Link>
-              <Link href="#features" className="relative text-gray-300 hover:text-white transition-all duration-300 group">
-                <span>Features</span>
+              <Link href="/about" className="relative text-gray-300 hover:text-white transition-all duration-300 group">
+                <span>About</span>
+                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-violet-400 to-cyan-400 group-hover:w-full transition-all duration-300"></div>
+              </Link>
+              <Link href="/privacy" className="relative text-gray-300 hover:text-white transition-all duration-300 group">
+                <span>Privacy</span>
                 <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-violet-400 to-cyan-400 group-hover:w-full transition-all duration-300"></div>
               </Link>
               <Button 
@@ -336,12 +340,16 @@ export default function Home() {
                 <Github className="w-4 h-4 mr-2" />
                 GitHub
               </Button>
-              <Button variant="ghost" size="sm" className="text-gray-400 hover:text-white">
-                About
-              </Button>
-              <Button variant="ghost" size="sm" className="text-gray-400 hover:text-white">
-                Privacy
-              </Button>
+              <Link href="/about">
+                <Button variant="ghost" size="sm" className="text-gray-400 hover:text-white">
+                  About
+                </Button>
+              </Link>
+              <Link href="/privacy">
+                <Button variant="ghost" size="sm" className="text-gray-400 hover:text-white">
+                  Privacy
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

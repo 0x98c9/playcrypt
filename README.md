@@ -70,7 +70,25 @@ src/
 - **Styling**: Tailwind CSS
 - **UI Components**: Custom components with Lucide React icons
 - **Cryptography**: crypto-js for encryption algorithms
-- **Deployment**: Vercel (recommended)
+- **Deployment**: Cloudflare Pages (configured), Vercel compatible
+
+## 🚀 Deployment
+
+This project is configured for easy deployment on Cloudflare Pages:
+
+### Quick Deploy to Cloudflare Pages
+1. Push your code to GitHub
+2. Connect repository to Cloudflare Pages
+3. Set build command: `npm run build`
+4. Set output directory: `out`
+5. Deploy!
+
+For detailed deployment instructions, see [DEPLOYMENT.md](DEPLOYMENT.md).
+
+### Verify Deployment Readiness
+```bash
+./verify-deployment.sh
+```
 
 ## 🔒 Security & Privacy
 
